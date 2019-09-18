@@ -37,16 +37,14 @@ Namespaces can correspond to view controllers, typical namespaces are `top`, `bo
 **Examples**
 
 | Twitter Profile | Tumblr Home | Instagram Explore
-| --- | --- | --- | 
+| --- | --- | --- |
 | <img width=200 src=assets/namespace1.PNG> | <img width=200 src=assets/namespace2.PNG> | <img width=200 src=assets/namespace3.PNG>
 | `top` <br> `actions` <br> `tweet` <br> `tab` | `post` <br> `tab` | `top` <br> `photo` <br> `tab`
- 
+
 ## Asset Folder
 
 * Using [Asset Catalogs](https://developer.apple.com/library/content/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/) is the preferred way to manage assets in Xcode, it eliminates keeping track of files in a project. However naming assets (image sets) remains important especially when collaborating with a designer.
-* If you choose to manage assets directly, use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing).
-  * An alternative is to use subfolders for each namespace, be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
-  * For extra credit, check out [Structuring an iOS Project](http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/) by [Sebastian Rehnby](https://github.com/sebreh) and the [Tools section](#tools).
+* If you choose to manage assets directly, use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing) (an alternative is to use subfolders for each namespace, be aware that subfolders can create problems with asset name [uniqueness](#uniqueness)).
 
 ## Asset Types
 
@@ -201,7 +199,7 @@ ss-top-plus-gray.png
 
 * `*-square`
 * `*-circle`
-* `*-outline` 
+* `*-outline`
 
 ```
 ss-top-arrow-right-circle.png
